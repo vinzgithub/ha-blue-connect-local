@@ -1271,7 +1271,7 @@ class BlueConnectCoordinator(DataUpdateCoordinator):
 
             if not parsed_data:
                 _LOGGER.warning(
-                    "Le decodeur %s a refuse LEN=%s HEX=%s",
+                    ""Decoder %s rejected LEN=%s HEX=%s",
                     parser_name,
                     len(received_payload)
                     if received_payload
